@@ -1,4 +1,4 @@
 # Website for my "brand" irchit_Dev
   
-&nbtb;My personal website&nbnl;
-&nbtb;Status: in planning stage...
+My personal website<br/>
+Status: in planning stage...
