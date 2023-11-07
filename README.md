@@ -1,2 +1,4 @@
-# irchit_dev_Website
-My personal website
+# Website for my "brand" irchit_Dev
+  
+  My personal website
+  Status: in planning stage...
