@@ -1,0 +1,38 @@
+.header{
+    border: solid #021904 1px;
+    background-color: #002F03;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    font-size: 3.5vh;
+}
+
+.header img{
+    height: 25vh;
+}
+
+.header div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+}
+
+.header span{
+    font-weight: 500;
+}
+
+.header a:hover{
+    text-decoration: underline;
+    color: #5F7F61;
+    font-weight: 500;
+}
