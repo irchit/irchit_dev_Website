@@ -12,6 +12,11 @@
 
 .header img{
     height: 25vh;
+    transition: all 0.8s ease-in-out;
+}
+
+.header img:hover{
+    transform: rotate(360deg);
 }
 
 .header div{

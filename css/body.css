@@ -6,3 +6,25 @@ body {
     align-items: center;
     background-color: #245127;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #245127; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #002F03;
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(58, 188, 108);; 
+}
