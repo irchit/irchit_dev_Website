@@ -35,3 +35,27 @@
 .footer img:hover{
     transform: rotate(360deg);
 }
+
+
+@media screen and (max-width: 700px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer p{
+        padding: 2vh;
+        font-size: 1vh;
+    }
+
+    .footer span{
+        font-size: 1.5vh;
+    }
+
+    .footer a{
+        padding-top: 2vh;
+    }
+
+    .footer img{
+        width: 20vw;
+    }
+}
