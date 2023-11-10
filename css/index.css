@@ -96,3 +96,19 @@
 .img_he:hover{
     opacity: 0;
 }
+
+.latestprojects{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: solid #021904 1px;
+    background-color: #002F03;
+    color: #fff;
+    border-radius: 25px;
+}
+.latestprojects h3{
+    padding-top: 2vh;
+    padding-left: 3vw;
+}
