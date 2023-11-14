@@ -1,5 +1,5 @@
 .aboutme{
-    width: 90%;
+    width: 85%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -68,40 +68,40 @@
     }
 
     .img_me{
-        width: 56.5% !important;
+        width: 53.5% !important;
     }
 }
 
-.subcontainer a{
+.subcontainer a {
     text-decoration: none;
     color: rgb(58, 188, 108);
 }
 
-.subcontainer span{
+.subcontainer span {
     font-weight: 700;
     color: rgb(161, 161, 161);
 }
 
-.subcontainer a:hover{
+.subcontainer a:hover {
     text-decoration: underline;
     color: #5F7F61;
     font-weight: 500;
 }
 
 
-.img_me{
+.img_me {
     position: absolute;
-    width: 30%;
+    width: 28.25%;
     border-radius: 100%;
     z-index: -1;
 }
 
-.img_he:hover{
+.img_he:hover {
     opacity: 0.2;
 }
 
-.latestprojects{
-    width:90%;
+.latestprojects {
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -111,17 +111,18 @@
     border-radius: 25px;
 }
 
-.latestprojects h3{
+.latestprojects h3 {
     padding-top: 2vh;
     padding-left: 3vw;
+    font-size: 3.5vh;
 }
 
-.latestprojects a{
+.latestprojects a {
     color: rgb(131, 207, 131);
     text-decoration: none;
 }
 
-.latestprojects a:hover{
+.latestprojects a:hover {
     color: rgb(108, 141, 108);
     text-decoration: underline;
 }
@@ -136,14 +137,14 @@
     padding: 5vh 0;
 }
 
-.latestprojects p{
+.latestprojects p {
     justify-self: center;
     align-self: center;
 }
   
 .projects-item {
     color: #fff;
-    background-color: rgba(36, 81, 39, 0.35);
+    background-color: rgba(36, 81, 60, 0.65);
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -154,17 +155,17 @@
     padding: 2vh 2vw;
 }
 
-.projects-item a{
+.projects-item a {
     color: rgb(131, 207, 131);
     text-decoration: none;
 }
 
-.projects-item a:hover{
+.projects-item a:hover {
     color: rgb(108, 141, 108);
     text-decoration: underline;
 }
 
-.projects-item img{
+.projects-item img {
     width: 10vw;
     border-radius: 5px;
 }
