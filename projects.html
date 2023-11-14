@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo_irchit_dev.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/body.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/projects.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/footer.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/header.css" media="screen" />
+    <title>irchit_Dev | projects</title>
 </head>
 <body>
-    
+    <div id="header" class="header">
+        <div class="links">
+            <a href="./index.html"><span>home</span></a>
+            <a href="./index.html#contact">contact</a>
+        </div>
+        <img alt="logo" src="./img/logo_irchit_dev.svg"/>
+        <div class="links">
+            <a href="projects.html">projects</a>
+            <a href="cv.html">cv</a>
+        </div>
+        <burger onclick="openHeader()" class="burger" id="burger">
+            <div class="line"></div>
+            <div class="line center"></div>
+            <div class="line"></div>
+        </burger>
+        <ul id="links" class="burger-links">
+            <li>home</li>
+            <li>contact</li>
+            <li>projects</li>
+            <li>cv</li>
+        </ul>
+    </div>
+    <br/>
+    <div id="footer" class="footer">
+        <a href="./index.html">
+            <img src="./img/logo_irchit_dev.svg"/>
+        </a>
+        <p>
+            <span>
+                Everyday, Everywhere, Anytime...
+            </span>
+            <br/><br/>
+            © irchit_Dev, Chițea Răzvan 2023
+        </p>
+    </div>
+    <script src="./js/animations.js"></script>
 </body>
 </html>
