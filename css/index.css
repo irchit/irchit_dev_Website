@@ -28,16 +28,15 @@
 
 .img_he{
     width: 70%;
-    border-radius: 25px;
+    border-radius: 100%;
     opacity: 1;
     transition: all 0.7s ease-in-out;
 }
 
 .darkbg{
-    border: solid #021904 1px;
-    background-color: #002F03;
+    background-color: rgba(4, 34, 36, 0.5);
     color: #fff;
-    border-radius: 0 0 25px 25px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -93,7 +92,7 @@
 .img_me{
     position: absolute;
     width: 30%;
-    border-radius: 25px;
+    border-radius: 100%;
     z-index: -1;
 }
 
@@ -107,8 +106,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    border: solid #021904 1px;
-    background-color: #002F03;
+    background-color: rgba(4, 34, 36, 0.5);
     color: #fff;
     border-radius: 25px;
 }
@@ -144,9 +142,8 @@
 }
   
 .projects-item {
-    border: solid #06360a 1px;
-    background-color: #245127;
     color: #fff;
+    background-color: rgba(36, 81, 39, 0.35);
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -173,8 +170,7 @@
 }
 
 .contact{
-    border: solid #06360a 1px;
-    background-color: #002F03;
+    background-color: rgba(4, 34, 36, 0.5);
     text-align: center;
     display: flex;
     flex-direction: column;

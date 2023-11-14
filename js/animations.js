@@ -26,3 +26,8 @@ function openHeader(){
     }
     burgerOpen = !burgerOpen;
 }
+
+function animBackground(){
+    const bodyElem = document.getElementsByTagName("body");
+    
+}

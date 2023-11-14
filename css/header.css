@@ -1,8 +1,7 @@
 .header{
     margin-top: 1.9vh;
-    border: solid #021904 1px;
-    background-color: #002F03;
-    border-radius: 25px 25px 25px 0;
+    background-color: rgba(4, 34, 36, 0.5);
+    border-radius: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
