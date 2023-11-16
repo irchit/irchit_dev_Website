@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
@@ -5,15 +9,12 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(0,46,3);
-    background: linear-gradient(127deg, rgb(88, 121, 91) 0%,rgb(95, 148, 68) 50%,rgb(48, 97, 52) 100%);
+    background: radial-gradient(circle at 50% 50% , rgb(59, 149, 68) 0%,rgb(29, 56, 16) 100%);
     margin: 0;
     justify-content: space-between;
     min-height: 100vh;
     color: white;
     text-align: center;
-    background-size: 200% 200%;
-    animation: gradientMovement 20s infinite;
-    animation-direction: alternate-reverse;
 }
 
 @keyframes gradientMovement {
